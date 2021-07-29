@@ -1,3 +1,5 @@
+/** Modolu de configuração e acesso do banco de dados */
+
 module.exports = {
   dialect: "mysql",
   host: "localhost",

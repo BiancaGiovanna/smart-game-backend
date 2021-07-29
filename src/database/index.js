@@ -1,9 +1,16 @@
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
+const dbconfig = require("../config/database");
 
-const dbConfig = require("../config/database");
+const Game = require("../models/Game");
+const Store = require("../models/Store");
+const Plataform = require("../models/Plataform");
 
-const Games = require('../models/Game');
+const connection = new Sequelize(dbconfig);
 
-const connection = new Sequelize(dbConfig);
+Game.init(connection);
+Store.init(connection);
+Plataform.init(connection);
 
-module.exports = connection;
+Game.associate(connection.models);
+Store.associate(connection.models);
+Plataform.associate(connection.models);

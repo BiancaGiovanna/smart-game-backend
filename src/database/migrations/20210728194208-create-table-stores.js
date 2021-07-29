@@ -1,5 +1,5 @@
 "use strict";
-
+/** QueryInterface para criar tabela de Lojas */
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     queryInterface.createTable("stores", {

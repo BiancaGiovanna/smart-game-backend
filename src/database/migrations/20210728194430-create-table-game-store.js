@@ -1,23 +1,23 @@
 "use strict";
-
+/** QueryInterface para criar relacionamento entre Jogo e Loja */
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     queryInterface.createTable("game_store", {
-      game_id: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        references: {
-          model: "games",
-          key: "id",
-        },
-        onUpdate: "CASCADE",
-        onDelete: "CASCADE",
-      },
       store_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
           model: "stores",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
+      game_id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "games",
           key: "id",
         },
         onUpdate: "CASCADE",

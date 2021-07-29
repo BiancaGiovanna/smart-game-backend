@@ -1,4 +1,5 @@
 const {Model, DataTypes} = require("sequelize");
+/** Classe de modelo do sequelize */
 
 class Plataform extends Model {
   static init(sequelize) {

@@ -1,4 +1,5 @@
 'use strict';
+/** QueryInterface para criar tabela de Jogos */
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
