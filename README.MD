@@ -1,4 +1,4 @@
-# Smash Games Back End
+# SmartGames Back-End
 
 Projeto é criar um sistema para a SmartGames
 
@@ -33,4 +33,4 @@ https://documenter.getpostman.com/view/13543714/TzseKn2A
 
 ### Autora
 
-- **Bianca Gionvanna** -
+- **Bianca Gionvanna** 
