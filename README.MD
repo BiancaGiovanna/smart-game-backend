@@ -10,8 +10,8 @@ O Que é necessário para rodar o projeto ?
 - Instalar o NodeJs.
 - Clonar esse repositorio
 - Entrar na pasta do projeto
-- executar npm i
-- Para criação do banco de dados executar
+- Rodar o comando npm i
+- Para criação do banco de dados rodar
   npx sequelize db:crete
   npx sequelize db:migrate
   npx sequelize db:seed:all
