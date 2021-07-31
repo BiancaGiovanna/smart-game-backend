@@ -9,22 +9,22 @@ module.exports = {
           name: "PS4",
         },
         {
-          name: "PS2",
-        },
-        {
-          name: "PS3",
-        },
-        {
           name: "PC",
-        },
-        {
-          name: "XBox",
         },
         {
           name: "XBoxOne",
         },
         {
           name: "Switch",
+        },
+        {
+          name: "PS2",
+        },
+        {
+          name: "PS3",
+        },
+        {
+          name: "XBOX",
         },
         {
           name: "Wiiu",
