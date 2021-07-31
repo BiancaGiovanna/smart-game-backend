@@ -15,7 +15,7 @@ O Que é necessário para rodar o projeto ?
   npx sequelize db:crete
   npx sequelize db:migrate
   npx sequelize db:seed:all
-
+- Para rodar o projeto use npm run dev
 ```
 
 ## Ferreamentas usadas
