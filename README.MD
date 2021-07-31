@@ -33,7 +33,7 @@ O Que é necessário para rodar o projeto ?
 #### **Back-end**
 
 - [Celebrate] Biblioteca de Validação
-- [cors] Mecanismo que permite que recursos restritos em uma página da web
+- [cors] Mecanismo que permite que recursos restritos em uma página da web sejam recuperados por outro domínio fora do domínio ao qual pertence o recurso que será recuperado
 - [Express] Framework de construçãp da API
 - [Sequelize] como ORM para o banco
 
